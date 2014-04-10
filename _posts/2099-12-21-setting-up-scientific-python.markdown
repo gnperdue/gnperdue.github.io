@@ -82,7 +82,8 @@ to find out).
 Later on, when we're trying to install `matplotlib`, we're going to run into a problem 
 with `freetype`:
 
-    /usr/X11/include/ft2build.h:56:38: error: freetype/config/ftheader.h: No such file or directory
+    /usr/X11/include/ft2build.h:56:38: error: 
+      freetype/config/ftheader.h: No such file or directory
 
 Let's just cut that off now. This way, if you're building all of this into a script, you
 can just go get coffee when you start it.
@@ -94,6 +95,22 @@ This will put the include directory (via softlink) where `matplotlib` expects to
 it. Someday this may be fixed deep down, but having this link won't hurt you in any 
 case.
 
+Next we need to install a bunch of scientific Python packages! In the examples below
+I am `pip`ing everything by default, but for Python 3 I used `pip3`. After each of these,
+I recommend firing up Python and attempting to `import` the packages to make sure 
+everything worked. Note: very rarely when installing Python packages, I find I can't 
+import the package in the directory where I just ran `pip` or `easy_install`, but if 
+I open a new shell, everything works there. (Sometimes of course, `pip` fails and then
+no amount of extra shells will save you.)
+
+* `pip install numpy` 
+* `pip install scipy`
+* `pip install matplotlib`
+* `pip install ipython`
+* `easy_install readline`
+
+At this point, you should be able to `ipython --pylab=inline` and have IPython running.
+The notebook and Qt modes won't work yet though.
 
 After finishing up with QT, we'll also brew some new packages:
 
