@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Installing sckikit-image and scikit-learn for Python on Mac OSX..."
-date:   2014-05-10 18:30:59
+date:   2014-08-08 07:30:59
 categories: yak-shaving osx python 
 ---
 
