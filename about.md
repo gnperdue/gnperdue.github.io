@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Born in Austin, TX, I live in the Chicago suburbs and work for the
+[Fermi National Accelerator Laboratory](http://www.fnal.gov) as a physicist in
+the [Fermi Quantum Institute](https://qis.fnal.gov). I am a Scientist working
+on quantum computing and machine learning. I have a long history in
+neutrino physics also, having spent much of the last decade working on the
+[MINERvA Experiment](https://minerva.fnal.gov) and on the
+[GENIE neutrino event generator](http://www.genie-mc.org).
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I enjoy physics, programming, reading, and coffee.
